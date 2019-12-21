@@ -174,6 +174,7 @@ $('.main-hook').on('click', '.material-icons', function () {
 
   }
 
+  initHook()
 
 
      

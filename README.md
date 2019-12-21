@@ -1,20 +1,24 @@
 # YT Hook
 
-<a href="https://hook.marraine.co"><img src="public/assets/Screenshot_1.png" alt="Bulma: a Flexbox CSS framework" style="max-width:100%;" width="600"></a>
+<a href="https://ythook.herokuapp.com/"><img src="public/assets/Screenshot_1.png" alt="Bulma: a Flexbox CSS framework" style="max-width:100%;" width="100%"></a>
 
-Hook is a simple Youtube playlist library that uses two multiple playlist IDs to display videos in sequence. It requires 2 differenct playlist ids on a single page,
-example: 
->mainPlayListId: the main playlist for that specific page
+Hook is a simple Youtube playlist library that uses two multiple playlist IDs to display videos in sequence. It requires 2 different playlist ids on a single page.
+Example: 
 
->nextPlayListId: the next playlist from the upcoming page.
+``mainPlayListId``: the main playlist for that specific page
+
+``nextPlayListId``: the next playlist from the upcoming page.
+
 ---
-### 👉 [See the official site](https://hook.marraine.co/)
+## 🚀 Demo
+
+#### 👉 [See demo on the official site](https://ythook.herokuapp.com/)
 ----
 
 ## 🤔 How to use it?
 Add styles in `<head>`
 ```html
-      <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+<link href="https://ythook.herokuapp.com/css/hook.css" rel="stylesheet">
 ```
 
 Add the scripts right before closing `<body>` tag, and declare your two playlist IDs:
@@ -24,7 +28,7 @@ Add the scripts right before closing `<body>` tag, and declare your two playlist
     let mainPlayListId = 'playlistID1'
     let nextPlayListId = 'playlistID2'
     </script>
-    <script src="https://enigmatic-scrubland-99304.herokuapp.com/hook.js"></script>
+<script src="https://ythook.herokuapp.com/hook.js"></script>
 ```
 
 I know, I know, nobody likes jQuery anymore. I promise the next version won't be jQuery dependent anymore.  
@@ -74,7 +78,13 @@ Like this:
 </section>
 ```        
 
-The `class` is `isActive` adds a red at the bottom the link of the current page, and should be removed or added following the page sequence.
+The `class` => `isActive` adds a red line at the bottom of the link on the current page, and should be removed or added following the page sequence.
+
+## Initialize Hook?
+No need to initialize Hook, it has already been initialized. 
+
+
+
 
 ## ❔Have Questions?
 
