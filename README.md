@@ -1,6 +1,6 @@
 # YT Hook
 
-<a href="https://ythook.herokuapp.com/"><img src="public/assets/Screenshot_1.png" alt="Bulma: a Flexbox CSS framework" style="max-width:100%;" width="100%"></a>
+<a href="https://ythook.marraine.co/"><img src="public/assets/Screenshot_1.png" alt="Bulma: a Flexbox CSS framework" style="max-width:100%;" width="100%"></a>
 
 Hook is a simple Youtube playlist library that uses multiple playlist IDs to display videos in sequence. It requires 2 different playlist ids on a single page.
 Example: 
@@ -12,13 +12,13 @@ Example:
 ---
 ## 🚀 Demo
 
-#### 👉 [See demo on the official site](https://ythook.herokuapp.com/)
+#### 👉 [See demo on the official site](https://ythook.marraine.co/)
 ----
 
 ## 🤔 How to use it?
 Add styles in `<head>`
 ```html
-<link href="https://ythook.herokuapp.com/css/hook.css" rel="stylesheet">
+<link href="https://ythook.marraine.co/css/hook.css" rel="stylesheet">
 ```
 
 Add the scripts right before closing `<body>` tag, and declare your two playlist IDs:
@@ -28,7 +28,7 @@ Add the scripts right before closing `<body>` tag, and declare your two playlist
     let mainPlayListId = 'playlistID1'
     let nextPlayListId = 'playlistID2'
     </script>
-<script src="https://ythook.herokuapp.com/hook.js"></script>
+<script src="https://ythook.marraine.co/hook.js"></script>
 ```
 
 I know, I know, nobody likes jQuery anymore. I promise the next version it won't be jQuery dependent anymore.  
