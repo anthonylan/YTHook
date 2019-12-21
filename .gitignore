@@ -1,0 +1,10 @@
+
+.DS_Store
+.vscode
+server.js
+views/
+
+# Node files
+node_modules/
+
+
