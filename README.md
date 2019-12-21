@@ -2,7 +2,7 @@
 
 <a href="https://ythook.herokuapp.com/"><img src="public/assets/Screenshot_1.png" alt="Bulma: a Flexbox CSS framework" style="max-width:100%;" width="100%"></a>
 
-Hook is a simple Youtube playlist library that uses two multiple playlist IDs to display videos in sequence. It requires 2 different playlist ids on a single page.
+Hook is a simple Youtube playlist library that uses multiple playlist IDs to display videos in sequence. It requires 2 different playlist ids on a single page.
 Example: 
 
 ``mainPlayListId``: the main playlist for that specific page
@@ -31,7 +31,7 @@ Add the scripts right before closing `<body>` tag, and declare your two playlist
 <script src="https://ythook.herokuapp.com/hook.js"></script>
 ```
 
-I know, I know, nobody likes jQuery anymore. I promise the next version won't be jQuery dependent anymore.  
+I know, I know, nobody likes jQuery anymore. I promise the next version it won't be jQuery dependent anymore.  
 
 ## HTML
 
